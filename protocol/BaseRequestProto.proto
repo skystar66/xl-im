@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package protocol;
+
+option java_package = "com.xl.xim.common.protocol";
+option java_outer_classname = "XIMRequestProto";
+
+message XIMReqProtocol {
+  required int64 requestId = 2;
+  required string reqMsg = 1;
+  required int32 type = 3;
+
+}
+
